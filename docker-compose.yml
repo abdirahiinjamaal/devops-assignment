@@ -1,0 +1,6 @@
+services:
+  portfolio:
+    image: network-site
+    container_name: my-network
+    ports:
+      - "8888:80"
